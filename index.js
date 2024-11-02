@@ -40,7 +40,7 @@ app.post('/whatsapp', (req, res) => {
 function sendMessage(to, body) {
   client.messages
     .create({
-      from: 'whatsapp:263717526166',
+      from: 'whatsapp:263717645397',
       to: `whatsapp:${to}`,
       body,
     })
