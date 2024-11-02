@@ -40,7 +40,7 @@ app.post('/whatsapp', (req, res) => {
 function sendMessage(to, body) {
   client.messages
     .create({
-      from: 'whatsapp:your_twilio_number',
+      from: 'whatsapp:263717526166',
       to: `whatsapp:${to}`,
       body,
     })
